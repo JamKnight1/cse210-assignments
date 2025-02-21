@@ -4,6 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Learning04 World!");
+        WritingAssignment assignment1 = new WritingAssignment("John", "English","The fall of Deez Nuts" );
+        assignment1.GetWritingInformation();
+
     }
 }
